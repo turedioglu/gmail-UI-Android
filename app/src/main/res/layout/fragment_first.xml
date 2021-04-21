@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        tools:ignore="MissingConstraints"
+        />
+
+    <TextView
+        android:id="@+id/mailTitle"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/imageView"
+        android:layout_width="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/mailSubject"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/imageView"
+        android:layout_below="@id/mailTitle"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/mailBody"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/imageView"
+        android:layout_below="@id/mailSubject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/mailDate"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@id/mailTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" />
+
+
+</RelativeLayout>
